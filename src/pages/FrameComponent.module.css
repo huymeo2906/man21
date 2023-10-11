@@ -1,0 +1,204 @@
+.chart1Child {
+  position: absolute;
+  top: calc(50% - 79.08px);
+  left: calc(50% - 79.08px);
+  border-radius: 50%;
+  background: linear-gradient(180deg, #7ad3ff, #4fbaf0);
+  width: 158.16px;
+  height: 158.16px;
+}
+.chart1Item {
+  top: calc(50% - 72.69px);
+  left: calc(50% - 72.69px);
+  background: linear-gradient(180deg, #fca549, #f39531);
+  width: 145.38px;
+  height: 145.38px;
+}
+.chart1Inner,
+.chart1Item,
+.ellipseDiv {
+  position: absolute;
+  border-radius: 50%;
+}
+.chart1Inner {
+  top: calc(50% - 86.27px);
+  left: calc(50% - 86.27px);
+  background: linear-gradient(180deg, #ff5959, #ef2c2c);
+  width: 172.53px;
+  height: 172.53px;
+}
+.ellipseDiv {
+  top: calc(50% - 89.86px);
+  left: calc(50% - 89.86px);
+  background: linear-gradient(180deg, #6989fe, #3c64f4);
+  width: 179.72px;
+  height: 179.72px;
+}
+.chart1Child1 {
+  top: calc(50% - 98.29px);
+  left: calc(50% - 98.29px);
+  background: linear-gradient(180deg, #08b295, #0c977f);
+  width: 196.57px;
+  height: 196.57px;
+}
+.chart1Child1,
+.chart1Child2,
+.chart1Child3 {
+  position: absolute;
+  border-radius: 50%;
+}
+.chart1Child2 {
+  top: calc(50% - 54.06px);
+  left: calc(50% - 54.06px);
+  background-color: var(--color-white);
+  box-shadow: 0 2.857142925262451px 14.29px rgba(0, 0, 0, 0.1);
+  width: 107.83px;
+  height: 107.83px;
+}
+.chart1Child3 {
+  top: calc(50% - 48.29px);
+  left: calc(50% - 48.29px);
+  border: 1.1px solid var(--text-color);
+  box-sizing: border-box;
+  width: 95.85px;
+  height: 95.85px;
+  opacity: 0.05;
+}
+.b {
+  position: relative;
+  line-height: 22.86px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.thng22022 {
+  position: relative;
+  font-size: 8px;
+  line-height: 11.43px;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+.frameGroup {
+  position: absolute;
+  top: calc(50% - 21.29px);
+  left: calc(50% - 33.29px);
+  width: 66.34px;
+  height: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chart1 {
+  position: absolute;
+  top: calc(50% - 97px);
+  left: calc(50% - 89px);
+  width: 196.57px;
+  height: 196.57px;
+}
+.chart1Wrapper {
+  position: relative;
+  width: 176px;
+  height: 176px;
+}
+.noteHorizontalChild {
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #6989fe, #3c64f4);
+  width: 8px;
+  height: 8px;
+}
+.div {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.container {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-7xs);
+}
+.chaThcHin {
+  position: relative;
+  line-height: 20px;
+  color: var(--body-text);
+  text-align: left;
+}
+.frameContainer,
+.noteHorizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.noteHorizontal {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.noteHorizontalItem {
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #7ad3ff, #4fbaf0);
+  width: 8px;
+  height: 8px;
+}
+.noteHorizontalInner {
+  background: linear-gradient(180deg, #fca549, #f39531);
+}
+.noteHorizontalChild1,
+.noteHorizontalChild2,
+.noteHorizontalInner {
+  position: relative;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.noteHorizontalChild1 {
+  background: linear-gradient(180deg, #08b295, #0c977f);
+}
+.noteHorizontalChild2 {
+  background: linear-gradient(180deg, #ff5959, #ef2c2c);
+}
+.frameParent,
+.noteHorizontalParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.noteHorizontalParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: var(--bodytext-14-regular-size);
+  color: var(--theme-text-heading);
+}
+.frameParent {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  box-shadow: var(--card-2);
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 28px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18.29px;
+  color: var(--theme-text-heading1);
+  font-family: var(--bodytext-14-regular);
+}
